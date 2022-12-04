@@ -22,7 +22,7 @@ export const ListMissions = (missions: Mission[], args: any) => {
       if (args.sort?.desc === true) {
         return a < b ? 1 : -1;
       } else {
-        return a > b ? 1 : -1;        
+        return a > b ? 1 : -1;
       }
     });
   }
